@@ -372,17 +372,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 7850 7000 7500
 Connection ~ 7000 7850
-$Comp
-L Device:D_Schottky D3
-U 1 1 6069B8B4
-P 7000 8475
-F 0 "D3" V 6954 8554 50  0000 L CNN
-F 1 "SL04-E3-08" V 7045 8554 50  0000 L CNN
-F 2 "transformers-board:SODFL3718X108N" H 7000 8475 50  0001 C CNN
-F 3 "~" H 7000 8475 50  0001 C CNN
-	1    7000 8475
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7000 8625 7000 9250
 Wire Wire Line
@@ -397,17 +386,6 @@ F 2 "" H 7000 6625 50  0001 C CNN
 F 3 "" H 7000 6625 50  0001 C CNN
 	1    7000 6625
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 606A1A6E
-P 7000 7350
-F 0 "D2" V 6954 7429 50  0000 L CNN
-F 1 "SL04-E3-08" V 7045 7429 50  0000 L CNN
-F 2 "transformers-board:SODFL3718X108N" H 7000 7350 50  0001 C CNN
-F 3 "~" H 7000 7350 50  0001 C CNN
-	1    7000 7350
-	0    1    1    0   
 $EndComp
 $Comp
 L rocketry:R_100 R6
@@ -507,12 +485,12 @@ L rocketry:R_100 R7
 U 1 1 606C799D
 P 9225 8725
 F 0 "R7" H 9155 8679 50  0000 R CNN
-F 1 "0.75" H 9155 8770 50  0000 R CNN
+F 1 "0.05" H 9155 8770 50  0000 R CNN
 F 2 "footprints:R_0805_OEM" H 8425 8875 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 8925 9225 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 8925 9225 50  0001 C CNN
 F 4 "DK" H 9225 8725 60  0001 C CNN "MFN"
 F 5 "RNCP0805FTD100RCT-ND" H 8575 8975 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 9705 9125 60  0001 C CNN "PurchasingLink"
+F 6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-L06KJ50MV/570932" H 9705 9125 60  0001 C CNN "PurchasingLink"
 	1    9225 8725
 	-1   0    0    1   
 $EndComp
@@ -688,17 +666,6 @@ F 3 "" H 6850 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 5250 6850 5450
-$Comp
-L Device:D_Schottky D5
-U 1 1 606A7CB3
-P 7550 4550
-F 0 "D5" H 7600 4725 50  0000 L CNN
-F 1 "SL04-E3-08" H 7595 4629 50  0000 L CNN
-F 2 "transformers-board:SODFL3718X108N" H 7550 4550 50  0001 C CNN
-F 3 "~" H 7550 4550 50  0001 C CNN
-	1    7550 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 4550 7400 4550
 $Comp
@@ -792,17 +759,6 @@ Wire Wire Line
 	9225 3025 8925 3025
 Wire Wire Line
 	9225 3025 9225 3975
-$Comp
-L Device:D_Schottky D6
-U 1 1 606FF96B
-P 8775 3025
-F 0 "D6" H 8825 3200 50  0000 L CNN
-F 1 "SL04-E3-08" H 8820 3104 50  0000 L CNN
-F 2 "transformers-board:SODFL3718X108N" H 8775 3025 50  0001 C CNN
-F 3 "~" H 8775 3025 50  0001 C CNN
-	1    8775 3025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8625 3025 8250 3025
 Wire Wire Line
@@ -977,17 +933,6 @@ F 3 "" H 625 4625 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	625  4425 625  4625
-$Comp
-L Device:D_Schottky D7
-U 1 1 6078868E
-P 12000 3475
-F 0 "D7" H 12050 3650 50  0000 L CNN
-F 1 "SL04-E3-08" H 12045 3554 50  0000 L CNN
-F 2 "transformers-board:SODFL3718X108N" H 12000 3475 50  0001 C CNN
-F 3 "~" H 12000 3475 50  0001 C CNN
-	1    12000 3475
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	11325 3475 11850 3475
 Wire Wire Line
@@ -1253,5 +1198,60 @@ F 2 "" H 13350 3325 50  0001 C CNN
 F 3 "" H 13350 3325 50  0001 C CNN
 	1    13350 3325
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D7
+U 1 1 6078868E
+P 12000 3475
+F 0 "D7" H 12050 3650 50  0000 L CNN
+F 1 "SS2FL4-M3/H" H 12045 3554 50  0000 L CNN
+F 2 "transformers-board:SODFL3718X108N" H 12000 3475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87617/ss2fl4.pdf" H 12000 3475 50  0001 C CNN
+	1    12000 3475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D5
+U 1 1 6075E6CB
+P 7550 4550
+F 0 "D5" H 7600 4725 50  0000 L CNN
+F 1 "SS2FL4-M3/H" H 7595 4629 50  0000 L CNN
+F 2 "transformers-board:SODFL3718X108N" H 7550 4550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87617/ss2fl4.pdf" H 7550 4550 50  0001 C CNN
+	1    7550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D6
+U 1 1 60767520
+P 8775 3025
+F 0 "D6" H 8825 3200 50  0000 L CNN
+F 1 "SS2FL4-M3/H" H 8820 3104 50  0000 L CNN
+F 2 "transformers-board:SODFL3718X108N" H 8775 3025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87617/ss2fl4.pdf" H 8775 3025 50  0001 C CNN
+	1    8775 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 6077F86E
+P 7000 8475
+F 0 "D3" V 6975 8550 50  0000 L CNN
+F 1 "SS2FL4-M3/H" V 7045 8554 50  0000 L CNN
+F 2 "transformers-board:SODFL3718X108N" H 7000 8475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87617/ss2fl4.pdf" H 7000 8475 50  0001 C CNN
+	1    7000 8475
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 607A001D
+P 7000 7350
+F 0 "D2" V 6975 7425 50  0000 L CNN
+F 1 "SS2FL4-M3/H" V 7045 7429 50  0000 L CNN
+F 2 "transformers-board:SODFL3718X108N" H 7000 7350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87617/ss2fl4.pdf" H 7000 7350 50  0001 C CNN
+	1    7000 7350
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
