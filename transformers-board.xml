@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\sbansal\Desktop\Transformers\transformers-board\transformers-board.sch</source>
+    <date>4/18/2021 2:36:12 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>transformers-board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>UC2844NG4</value>
+      <footprint>transformers-board:DIP794W45P254L959H508Q8</footprint>
+      <libsource lib="transformers-cc" part="UC2844NG4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6065FED4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60660CF4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTST-C190GKT</value>
+      <footprint>transformers-board:LEDM1608X80</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60665721</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>GRM21BR71H104KA01L</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6066C5EF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>GRM21BR71H104KA01L</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606715E0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60674478</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606756A3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_100</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6067EB76</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>GRM21BR71H104KA01L</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60681062</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6068629B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AABD6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AC85C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B0F19</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B69B7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6068CB85</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0.05</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-L06KJ50MV/570932</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C799D</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1.014nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CD548</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>15</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CEA74</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>08051A471JAT2A</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CFC88</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606E19A9</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5357BRLG</value>
+      <footprint>transformers-board:DIOAD1720W120L750D440P</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606941CC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>120uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606958D1</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_100K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">P100KCCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
+      </fields>
+      <libsource lib="rocketry" part="R_100K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ABF2A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>CRCW08050000Z0EA</value>
+      <footprint>transformers-board:CRCW08050000Z0EA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AEE1E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>PC47PQ20_16Z-22</value>
+      <footprint>transformers-board:CPVPQ20161S14PZ</footprint>
+      <libsource lib="transformers-cc" part="PC47PQ20_16Z-22" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606CE128</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>CRCW251210K7FKEG</value>
+      <footprint>transformers-board:CRCW251210K7FKEG</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070B118</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>200uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070E18D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6072938E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60733C8E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607373C1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073AB6E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>ECA1HM100</value>
+      <footprint>transformers-board:CAPPRD200W50D500H1100B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073E78C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>ECA1HM100</value>
+      <footprint>transformers-board:CAPPRD200W50D500H1100B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074203D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>ECA1HM100</value>
+      <footprint>transformers-board:CAPPRD200W50D500H1100B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B1CF5</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>ECA1HM100</value>
+      <footprint>transformers-board:CAPPRD200W50D500H1100B</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B1CFB</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>EGPA500ELL222ML40S</value>
+      <footprint>Capacitor_SMD:C_Elec_10x10.2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C376A</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607D6AE4</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607E1ED3</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60827054</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>EEHZA1H101P</value>
+      <footprint>transformers-board:CAPAE1030X1050N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082705A</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LTST-C190GKT</value>
+      <footprint>transformers-board:LEDM1608X80</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082CD2C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N5357BRLG</value>
+      <footprint>transformers-board:DIOAD1720W120L750D440P</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082FA5D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_10K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.bourns.com/data/global/pdfs/CRS.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="rocketry" part="R_10K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084D87C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_4.7K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-4.7KARCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274</field>
+      </fields>
+      <libsource lib="rocketry" part="R_4.7K" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608DAD46</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SS2FL4-M3/H</value>
+      <footprint>transformers-board:SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87617/ss2fl4.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078868E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SS2FL4-M3/H</value>
+      <footprint>transformers-board:SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87617/ss2fl4.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6075E6CB</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SS2FL4-M3/H</value>
+      <footprint>transformers-board:SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87617/ss2fl4.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60767520</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SS2FL4-M3/H</value>
+      <footprint>transformers-board:SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87617/ss2fl4.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6077F86E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SS2FL4-M3/H</value>
+      <footprint>transformers-board:SODFL3718X108N</footprint>
+      <datasheet>https://www.vishay.com/docs/87617/ss2fl4.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A001D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C9240</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>3362P-1-102LF</value>
+      <footprint>transformers-board:TRIM_3362P-1-102LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="MP">3362P-1-205LF</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="transformers-cc" part="3362P-1-102LF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607E6DAD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_100">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_100K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">P100KCCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_10K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rocketry" part="R_4.7K">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_4.7K</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-4.7KARCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/RC0805JR-074K7L/311-4.7KARCT-ND/731274</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transformers-cc" part="3362P-1-102LF">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">3362P-1-102LF</field>
+        <field name="Footprint">TRIM_3362P-1-102LF</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="MP">3362P-1-205LF</field>
+        <field name="MF">Bourns</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transformers-cc" part="PC47PQ20_16Z-22">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC47PQ20_16Z-22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1,1" type="input"/>
+        <pin num="2" name="1,2" type="input"/>
+        <pin num="3" name="1,3" type="input"/>
+        <pin num="4" name="1,4" type="input"/>
+        <pin num="5" name="1,5" type="input"/>
+        <pin num="6" name="1,6" type="input"/>
+        <pin num="7" name="2,1" type="input"/>
+        <pin num="8" name="2,2" type="input"/>
+        <pin num="9" name="2,3" type="input"/>
+        <pin num="10" name="2,4" type="input"/>
+        <pin num="11" name="2,5" type="input"/>
+        <pin num="12" name="2,6" type="input"/>
+        <pin num="13" name="2,7" type="input"/>
+        <pin num="14" name="2,8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="transformers-cc" part="UC2844NG4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UC2844NG4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="BiDi"/>
+        <pin num="2" name="VFB" type="input"/>
+        <pin num="3" name="ISENSE" type="input"/>
+        <pin num="4" name="RT/CT" type="BiDi"/>
+        <pin num="5" name="GROUND" type="BiDi"/>
+        <pin num="6" name="OUTPUT" type="output"/>
+        <pin num="7" name="VCC" type="BiDi"/>
+        <pin num="8" name="VREF" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="rocketry">
+      <uri>C:/Users/sbansal/Desktop/Rocketry/pigeon-master/pigeon-master/rocketry.lib</uri>
+    </library>
+    <library logical="transformers-cc">
+      <uri>C:\Users\sbansal\Desktop\Transformers\transformers-board/transformers-cc.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="VR1" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D7-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D5-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="VR1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad2)">
+      <node ref="VR1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D9-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="16" name="GNDA">
+      <node ref="C20" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="17" name="VCCQ">
+      <node ref="J3" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="18" name="VCC">
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C5-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C14-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C10-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C15-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C15-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+  </nets>
+</export>
